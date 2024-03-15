@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#iframe {
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+input {
+  z-index: 100;
+}
+#console {
+  position:absolute;
+  width:100%;
+  height:20%;
+  left:0;
+  bottom:0;
+  z-index: 50;
+  background-color: rgba(120,120,120,0.2);
+}
