@@ -11,7 +11,7 @@ function override() {
       divId.appendChild(span);
   };
 }
-window.addEventListener("keydown","function(e) {
+window.addEventListener("keydown",function(e) {
   if (e.key == "π") {
     eval(prompt("what to run?","alert('works')"));
   }
